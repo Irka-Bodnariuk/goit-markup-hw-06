@@ -566,7 +566,6 @@ p {
 .subscribe-button {
   min-width: 200px;
   height: 50px;
-  padding-left: 27px;
   color: var(--white-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -577,6 +576,7 @@ p {
   display: flex;
   text-align: center;
   align-items: center;
+  justify-content: center;
   letter-spacing: 0.06em;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -859,6 +859,7 @@ p {
 }
 .modal-link {
   color: var(--accent-color);
+  margin-left: 4px;
 }
 
 .check-text span {
